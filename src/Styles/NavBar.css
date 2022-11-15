@@ -1,0 +1,24 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex; 
+    justify-content: flex-end; 
+}
+.nav-left {
+    flex: 1; 
+}
+.nav-right {
+    flex: 1;
+    display: flex; 
+}
+
+.nav-links ul{
+    list-style: none; 
+    flex-direction: row; 
+    flex: 1; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
